@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1333" alt="Screenshot 2024-07-08 at 1 13 12 PM" src="https://github.com/CodeBeginner000001/TextUtils/assets/92913917/96ffe2fc-4bd3-40ef-9657-6d831845c486">
+TextUtils is a React application that allows users to manipulate text in various ways. It provides functionality to convert text to uppercase and lowercase, copy text to the clipboard, remove extra spaces, preview the text, and switch between light and dark modes. The app also includes navigation between Home and About pages.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+  - [Home Page](#home-page)
+  - [About Page](#about-page)
+  - [Theme Toggle](#theme-toggle)
+- [Components](#components)
+- [Preview](#preview)
+- [Contributing](#contributing)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Light/Dark Mode Toggle**: Switch between light and dark themes for better visibility.
+- **Text Conversion**: Convert text to uppercase and lowercase.
+- **Copy Text**: Copy the entire text from the text area to the clipboard.
+- **Remove Extra Spaces**: Remove extra spaces from the text.
+- **Word and Character Count**: Display the number of words and characters in the text.
+- **Reading Time Estimation**: Estimate the time it will take to read the text.
+- **Text Preview**: Preview the text as you type.
+- **Navigation**: Navigate between Home and About pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js and npm should be installed on your machine.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/textutils.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
+   ```bash
+   cd textutils
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+### Running the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Open your browser and navigate to `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Home Page
 
-## Learn More
+The Home page provides a text area where you can enter and manipulate text. The available options are:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Uppercase**: Convert the text to uppercase.
+- **Lowercase**: Convert the text to lowercase.
+- **Clear**: Clear the text area.
+- **Remove Extra Spaces**: Remove extra spaces from the text.
+- **Copy Text**: Copy the entire text to the clipboard.
+- **Preview**: Preview the text as you type.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Additionally, the Home page displays the following statistics:
 
-### Code Splitting
+- **Word Count**: The number of words in the text.
+- **Character Count**: The number of characters in the text.
+- **Reading Time**: The estimated time it will take to read the text.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### About Page
 
-### Analyzing the Bundle Size
+The About page provides information about the TextUtils application and its features.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Theme Toggle
 
-### Making a Progressive Web App
+You can switch between light and dark modes by clicking the toggle button in the Navbar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Components
 
-### Advanced Configuration
+### App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The main application component that includes the routing logic and theme toggle functionality.
 
-### Deployment
+### About.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The About page component that provides information about the application.
 
-### `npm run build` fails to minify
+### Alert.mjs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Alert component displays alerts and notifications.
+
+### Navbar.mjs
+
+The Navbar component contains the navigation links and the theme toggle button.
+
+### placeholdertext.css
+
+The CSS file for styling placeholder text.
+
+### TextForms.js
+
+The TextForms component includes the text area and buttons for text manipulation.
+
+### TextSummary.mjs
+
+The TextSummary component displays the word count, character count, and estimated reading time.
+
+## Preview
+<p>Light Mode</p>
+<p align="center">
+  <img width="1333" alt="Screenshot 2024-07-08 at 1 13 12 PM" src="https://github.com/CodeBeginner000001/TextUtils/assets/92913917/96ffe2fc-4bd3-40ef-9657-6d831845c486">
+</p>
+
+<p>Dark Mode</p>
+<p align="center">
+  <img width="1334" alt="Screenshot 2024-07-08 at 1 17 16 PM" src="https://github.com/CodeBeginner000001/TextUtils/assets/92913917/c4d73465-854b-477c-8f24-c1cc6f7d2cc4">
+</p>
+
+<p>About Page</p>
+<p align="center">
+  <img width="1342" alt="Screenshot 2024-07-08 at 1 18 25 PM" src="https://github.com/CodeBeginner000001/TextUtils/assets/92913917/e6266957-3e1f-4eda-9d10-ce280fc899d1">
+</p>
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. We welcome contributions to improve the functionality and user experience of TextUtils.
