@@ -39,12 +39,12 @@ TextUtils is a React application that allows users to manipulate text in various
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/textutils.git
+   git clone https://github.com/TextUtils/TextUtils.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd textutils
+   cd TextUtils
    ```
 
 3. Install the dependencies:
