@@ -90,31 +90,31 @@ You can switch between light and dark modes by clicking the toggle button in the
 
 ## Components
 
-### App.js
+### -> App.js
 
 The main application component that includes the routing logic and theme toggle functionality.
 
-### About.js
+### -> About.js
 
 The About page component that provides information about the application.
 
-### Alert.mjs
+### -> Alert.mjs
 
 The Alert component displays alerts and notifications.
 
-### Navbar.mjs
+### -> Navbar.mjs
 
 The Navbar component contains the navigation links and the theme toggle button.
 
-### placeholdertext.css
+### -> placeholdertext.css
 
 The CSS file for styling placeholder text.
 
-### TextForms.js
+### -> TextForms.js
 
 The TextForms component includes the text area and buttons for text manipulation.
 
-### TextSummary.mjs
+### -> TextSummary.mjs
 
 The TextSummary component displays the word count, character count, and estimated reading time.
 
